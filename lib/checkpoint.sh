@@ -37,6 +37,7 @@ phase_status() {
     web)      marker="exploit/findings-raw.md" ;;
     infra)    marker="exploit/findings-raw.md" ;;
     exfil)    marker="loot/EXFIL.log" ;;
+    validate) marker="report/validation.md" ;;
     report)   marker="report/findings.json" ;;
     *) return 1 ;;
   esac
