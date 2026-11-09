@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+loot/
+*.sql
+*.hprof
+*.log
+report/run.log
+.DS_Store
